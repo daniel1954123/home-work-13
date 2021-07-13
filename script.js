@@ -22,9 +22,9 @@
 //     console.log('obj.'+ prop + "=" + obj[prop]);
 // }
 
-// const obj = {Коля:'Зарплата 200 Долларов',Вася:'Зарплата 300 Долларов',Петя:'Зарплата 400 Долларов'}
+// const obj = {Коля:'200',Вася:'300',Петя:'400'}
 // for (const prop in obj){
-//     console.log(prop + '-' + obj[prop]);
+//     console.log(`${prop} - Зарплата ${obj[prop]} Долларов` );
 // }
 
 // const arr = [2, 5, 9, 15, 0, 4];
